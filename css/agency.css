@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/sliders/imagen01.jpeg');
+  background-image: url('../img/sliders/imagen12.jpeg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -295,7 +295,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 70px 0;
   }
 }
 .service-heading {
@@ -743,4 +743,24 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+
+#infografia_wrap {
+  /*padding: 90px 60px 0px 60px;*/
+  box-sizing: border-box;
+  /*margin: 60px 0px 120px 0px;*/
+}
+
+#infografia {
+  width: 100%;
+  padding-bottom: 67%;
+  background: url(../img/metodologia/infografia_scrum.png) no-repeat;
+  /* background: url(/images/agiles/infografia_wide.png) no-repeat; */
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
+
+a:hover{
+  text-decoration: none;
 }

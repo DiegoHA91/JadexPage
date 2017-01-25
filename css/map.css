@@ -1,0 +1,448 @@
+#map
+{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    /*background:url(images/infografia_wide.png) top left no-repeat #fff;*/
+    /*font-family:arial, helvetica, sans-serif;
+    font-size:8pt;*/
+}
+
+#map li
+{
+    margin:0;
+    padding:0;
+    list-style:none;
+    /*border:1px solid black;
+    box-sizing:border-box;*/
+    position:absolute;
+    display:block;
+    text-decoration:none;
+    color:#858585;
+    cursor:default;
+}
+
+#map li a
+{
+    position:absolute;
+    display:block;
+    /*
+       Specifying a background image
+       (a 1px by 1px transparent gif)
+       fixes a bug in older versions of
+       IE that causeses the block to not
+       render at its full dimensions.
+    */
+    /*background:url(blank.gif);*/
+    text-decoration:none;
+    color:#858585;
+    cursor:default;
+}
+
+#map li span
+{
+    display:none;
+    /*visibility:hidden;
+    opacity:0;
+    width:0px;
+    height:0px !important;
+    overflow:hidden;
+    background-color:pink;*/
+}
+
+#map li:hover span
+{
+    transition:all 250ms ease;
+    position:relative;
+    display:block;
+    visibility:visible;
+    width:300px;
+    height:auto;
+    left:20px;
+    top:20px;
+    border:0px solid #000;
+    background:#fff;
+    padding:15px;
+    filter:alpha(opacity=95);
+    opacity:0.95;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    overflow:auto;
+    border:1px solid #D8D8D8;
+    -webkit-box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.05);
+    -moz-box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.05);
+    box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.05);
+}
+
+#map li:hover .top_right
+{
+    left: auto !important;
+    right: 200px !important;
+}
+
+#map li:hover .bottom_left
+{
+    bottom: 150px !important;
+    top: auto !important;
+}
+
+#map li:hover .bottom_right
+{
+    bottom: 150px !important;
+    top: auto !important;
+    left: auto !important;
+    right: 200px !important;
+}
+
+#map .product_owner
+{
+    top: 13%;
+    left: 3%;
+    width: 24%;
+    height: 21%;
+    /*background-color:red;*/
+}
+
+#map .avance_sprint
+{
+    top: 83%;
+    left: 81%;
+    width: 13%;
+    height: 11%;
+    /*background-color:blue;*/
+}
+
+#map .historias_usuario
+{
+    top: 61%;
+    left: 10%;
+    width: 10%;
+    height: 9%;
+    /*background-color:green;*/
+}
+
+#map .scrum_master
+{
+    top: 72%;
+    left: 22%;
+    width: 7%;
+    height: 19%;
+    /*background-color:yellow;*/
+}
+
+#map .sprint_review
+{
+    top: 14%;
+    left: 77%;
+    width: 23%;
+    height: 23%;
+    /*background-color:orange;*/
+}
+
+#map .sprint_planning
+{
+    top: 65%;
+    left: 24%;
+    width: 19%;
+    height: 7%;
+    border-radius: 60px;
+    /*background-color: limegreen;*/
+}
+
+#map .retrospectiva_sprint
+{
+    top: 40%;
+    left: 37%;
+    width: 14%;
+    height: 23%;
+    border-radius: 60px;
+    /*background-color: fuchsia;*/
+}
+
+#map .daily_scrum_meeting
+{
+    top: 41%;
+    left: 56%;
+    width: 25%;
+    height: 25%;
+    /*background-color: cyan;*/
+}
+
+#map .glow
+{
+    width: 24px;
+    height: 24px;
+    border-radius:50%;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 1);
+    background-color:white;
+    opacity:0.5;
+    position: relative;
+    -webkit-animation-name: white_circle; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: white_circle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#map .orange_circle
+{
+    width: 24px;
+    height: 24px;
+    border-radius:50%;
+    box-shadow: 0 0 50px rgba(238, 125, 0, 1);
+    background-color:RGB(238,125,0);
+    opacity:0.5;
+    position: relative;
+    -webkit-animation-name: orange_circle; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: orange_circle;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#map h2
+{
+    margin:0px;
+    font-size:18px;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes white_circle {
+    0%   {opacity:0.5; width:16px; height:16px; top:-8px; left:-8px;}
+    25%  {opacity:0.7; width:24px; height:24px; top:-12px; left:-12px;}
+    50%  {opacity:0.5; width:16px; height:16px; top:-8px; left:-8px;}
+    75%  {opacity:0.7; width:24px; height:24px; top:-12px; left:-12px;}
+    100% {opacity:0.5; width:16px; height:16px; top:-8px; left:-8px;}
+}
+
+/* Standard syntax */
+@keyframes white_circle {
+    0%   {opacity:0.5; width:16px; height:16px; top:-8px; left:-8px;}
+    25%  {opacity:0.7; width:24px; height:24px; top:-12px; left:-12px;}
+    50%  {opacity:0.5; width:16px; height:16px; top:-8px; left:-8px;}
+    75%  {opacity:0.7; width:24px; height:24px; top:-12px; left:-12px;}
+    100% {opacity:0.5; width:16px; height:16px; top:-8px; left:-8px;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes orange_circle {
+    0%   {opacity:0.5; width:16px; height:16px; top:-8px; left:-8px;}
+    25%  {opacity:0.7; width:24px; height:24px; top:-12px; left:-12px;}
+    50%  {opacity:0.5; width:16px; height:16px; top:-8px; left:-8px;}
+    75%  {opacity:0.7; width:24px; height:24px; top:-12px; left:-12px;}
+    100% {opacity:0.5; width:16px; height:16px; top:-8px; left:-8px;}
+}
+
+/* Standard syntax */
+@keyframes orange_circle {
+    0%   {opacity:0.5; width:16px; height:16px; top:-8px; left:-8px;}
+    25%  {opacity:0.7; width:24px; height:24px; top:-12px; left:-12px;}
+    50%  {opacity:0.5; width:16px; height:16px; top:-8px; left:-8px;}
+    75%  {opacity:0.7; width:24px; height:24px; top:-12px; left:-12px;}
+    100% {opacity:0.5; width:16px; height:16px; top:-8px; left:-8px;}
+}
+
+#map .product_owner .glow
+{
+    margin-top:48%;
+    margin-left:48%;
+    animation-delay: 250ms;
+}
+
+#map .avance_sprint .glow
+{
+    margin-top: 21%;
+    margin-left: -10%;
+    animation-delay: 300ms;
+}
+
+#map .historias_usuario .glow
+{
+    margin-top:54%;
+    margin-left:48%;
+    animation-delay: 350ms;
+}
+
+#map .scrum_master .glow
+{
+    margin-top: 115%;
+    margin-left: 55%;
+    animation-delay: 400ms;
+}
+
+#map .sprint_review .glow
+{
+    margin-top:58%;
+    margin-left:48%;
+    animation-delay: 450ms;
+}
+
+#map .sprint_planning .glow
+{
+    margin-top:5%;
+    margin-left:47%;
+    animation-delay: 450ms;
+}
+
+#map .retrospectiva_sprint .glow
+{
+    margin-top:93%;
+    margin-left:87%;
+    animation-delay: 450ms;
+}
+
+#map .daily_scrum_meeting .orange_circle
+{
+    margin-top:34%;
+    margin-left:53%;
+    animation-delay: 450ms;
+}
+
+strong, b
+{
+    font-weight: bold;
+    font-size:18px;
+}
+
+#map .close_popover
+{
+    position:absolute;
+    right:16px;
+    top:16px;
+    cursor:pointer !important;
+}
+
+@media screen and (max-width: 1260px)
+{
+    #map .product_owner
+    {
+        top: 13%;
+        left: 15%;
+        width: 17%;
+        height: 21%;
+        /*background-color:red;*/
+    }
+
+    #map .avance_sprint
+    {
+        top: 83%;
+        left: 72%;
+        width: 11%;
+        height: 11%;
+        /*background-color:blue;*/
+    }
+
+    #map .historias_usuario
+    {
+        top: 60%;
+        left: 19%;
+        width: 9%;
+        height: 9%;
+        /*background-color:green;*/
+    }
+
+    #map .scrum_master
+    {
+        top: 72%;
+        left: 29%;
+        width: 5%;
+        height: 20%;
+        /*background-color:yellow;*/
+    }
+
+    #map .sprint_review
+    {
+        top: 14%;
+        left: 70%;
+        width: 18%;
+        height: 18%;
+        /*background-color:orange;*/
+    }
+
+    #map .sprint_planning .glow
+    {
+        margin-top: 5%;
+        margin-left: 71%;
+    }
+
+    #map .daily_scrum_meeting .orange_circle
+    {
+        margin-top: 24%;
+        margin-left: 66%;
+    }
+
+}
+
+@media screen and (max-width:940px)
+{
+    #map .product_owner
+    {
+        top: 11%;
+        left: 4%;
+        width: 27%;
+        height: 16%;
+    }
+
+    #map .avance_sprint
+    {
+        top: 80%;
+        left: 76%;
+        width: 15%;
+        height: 8%;
+    }
+
+    #map .historias_usuario
+    {
+        top: 49%;
+        left: 13%;
+        width: 12%;
+        height: 7%;
+    }
+
+    #map .scrum_master
+    {
+        top: 71%;
+        left: 27%;
+        width: 8%;
+        height: 15%;
+    }
+
+    #map .sprint_review
+    {
+        top: 13%;
+        left: 73%;
+        width: 24%;
+        height: 13%;
+    }
+
+    #map .product_owner .glow
+    {
+        margin-left:50%;
+    }
+
+    #map .scrum_master .glow
+    {
+        margin-top: 96%;
+        margin-left: 46%;
+    }
+
+    #map .sprint_planning .glow
+    {
+        margin-top: 0%;
+        margin-left: 90%;
+    }
+
+    #map .daily_scrum_meeting .orange_circle
+    {
+        margin-top: 31%;
+        margin-left: 53%;
+    }
+
+}
