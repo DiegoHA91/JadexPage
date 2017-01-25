@@ -22,7 +22,7 @@
     position:absolute;
     display:block;
     text-decoration:none;
-    color:#858585;
+    color: black;
     cursor:default;
 }
 
@@ -39,7 +39,7 @@
     */
     /*background:url(blank.gif);*/
     text-decoration:none;
-    color:#858585;
+    color: black;
     cursor:default;
 }
 
