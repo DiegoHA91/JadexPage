@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea6ba947-2c07-4f63-b55a-e0d0f5dbd1b9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sliders/apimovil.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sliders/apimovil2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sliders/apimovil3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sliders/disenoWeb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sliders/imagen15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sliders/softwaredesarrollo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/agency-service.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/general.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/servicios.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/servicios.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -24,35 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="472" column="71" lean-forward="false" selection-start-line="472" selection-start-column="71" selection-end-line="472" selection-end-column="71" />
-              <folding>
-                <element signature="e#26614#26620#0" expanded="true" />
-                <marker date="1485318778607" expanded="true" signature="1406:1547" ph="..." />
-                <marker date="1485318778607" expanded="true" signature="1626:1767" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/map.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="423" column="23" lean-forward="true" selection-start-line="423" selection-start-column="23" selection-end-line="423" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agency.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="agency.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/agency.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="756" column="57" lean-forward="false" selection-start-line="756" selection-start-column="57" selection-end-line="756" selection-end-column="57" />
+            <state relative-caret-position="2522">
+              <caret line="228" column="53" lean-forward="false" selection-start-line="228" selection-start-column="53" selection-end-line="228" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -63,6 +49,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -74,9 +61,30 @@
       <find>secu</find>
       <find>portfolio</find>
       <find>/scripts/fuzemodal-1.3/</find>
-      <find>header</find>
       <find>porta</find>
       <find>@media screen and (max-width:</find>
+      <find>servici</find>
+      <find>fac</find>
+      <find>bs-example-navbar-collapse-1</find>
+      <find>transparen</find>
+      <find>@media (min-width: 768px)</find>
+      <find>trans</find>
+      <find>#submenu</find>
+      <find>des</find>
+      <find>just</find>
+      <find>header</find>
+      <find>amazo</find>
+      <find>body</find>
+      <find>list</find>
+      <find>font</find>
+      <find>footer</find>
+      <find>imagen15</find>
+      <find>imagen</find>
+      <find>section</find>
+      <find>jadex</find>
+      <find>movil</find>
+      <find>priva</find>
+      <find>privac</find>
     </findStrings>
     <replaceStrings>
       <replace>img/icons/close.png</replace>
@@ -89,9 +97,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/agency.min.css" />
-        <option value="$PROJECT_DIR$/css/agency.css" />
         <option value="$PROJECT_DIR$/css/map.css" />
+        <option value="$PROJECT_DIR$/css/agency-service.css" />
+        <option value="$PROJECT_DIR$/css/general.css" />
+        <option value="$PROJECT_DIR$/css/servicios.css" />
+        <option value="$PROJECT_DIR$/servicios.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/agency.css" />
       </list>
     </option>
   </component>
@@ -111,6 +123,9 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -150,7 +165,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JadexPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JadexPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sliders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JadexPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JadexPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JadexPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JadexPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -167,10 +236,6 @@
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="agency.css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -185,6 +250,12 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Diego\Documents\JadexPage\css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -259,7 +330,7 @@
       <updated>1485264520651</updated>
       <workItem from="1485264525618" duration="2343000" />
       <workItem from="1485301568649" duration="2391000" />
-      <workItem from="1485308297896" duration="10183000" />
+      <workItem from="1485308297896" duration="22184000" />
     </task>
     <task id="LOCAL-00001" summary="CambiosJAdex">
       <created>1485301617471</created>
@@ -282,18 +353,25 @@
       <option name="project" value="LOCAL" />
       <updated>1485318121907</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CambiosJAdex">
+      <created>1485318835494</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1485318835494</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14917000" />
+    <option name="totallyTimeSpent" value="26918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14434524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2596726" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -331,9 +409,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#26614#26620#0" expanded="true" />
-            <marker date="1485318778607" expanded="true" signature="1406:1547" ph="..." />
-            <marker date="1485318778607" expanded="true" signature="1626:1767" ph="..." />
+            <element signature="e#26674#26680#0" expanded="true" />
+            <marker date="1485330931693" expanded="true" signature="1406:1547" ph="..." />
+            <marker date="1485330931693" expanded="true" signature="1626:1767" ph="..." />
           </folding>
         </state>
       </provider>
@@ -351,9 +429,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#26614#26620#0" expanded="true" />
-            <marker date="1485318778607" expanded="true" signature="1406:1547" ph="..." />
-            <marker date="1485318778607" expanded="true" signature="1626:1767" ph="..." />
+            <element signature="e#26674#26680#0" expanded="true" />
+            <marker date="1485330931693" expanded="true" signature="1406:1547" ph="..." />
+            <marker date="1485330931693" expanded="true" signature="1626:1767" ph="..." />
           </folding>
         </state>
       </provider>
@@ -374,14 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/agency.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="756" column="57" lean-forward="false" selection-start-line="756" selection-start-column="57" selection-end-line="756" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/map.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -390,15 +460,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/agency-service.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1048">
+          <caret line="228" column="50" lean-forward="false" selection-start-line="228" selection-start-column="49" selection-end-line="228" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/general.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="506" column="0" lean-forward="true" selection-start-line="506" selection-start-column="0" selection-end-line="506" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/softwaredesarrollo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/imagen15.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/imagen14.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/disenoWeb.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/apimovil2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/apimovil.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logos/envato.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logos/themeforest.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/servicios.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="105" column="44" lean-forward="false" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="472" column="71" lean-forward="false" selection-start-line="472" selection-start-column="71" selection-end-line="472" selection-end-column="71" />
+        <state relative-caret-position="924">
+          <caret line="488" column="34" lean-forward="false" selection-start-line="488" selection-start-column="34" selection-end-line="488" selection-end-column="34" />
           <folding>
-            <element signature="e#26614#26620#0" expanded="true" />
-            <marker date="1485318778607" expanded="true" signature="1406:1547" ph="..." />
-            <marker date="1485318778607" expanded="true" signature="1626:1767" ph="..." />
+            <element signature="e#26674#26680#0" expanded="true" />
+            <marker date="1485330931693" expanded="true" signature="1406:1547" ph="..." />
+            <marker date="1485330931693" expanded="true" signature="1626:1767" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/servicios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="340" column="20" lean-forward="false" selection-start-line="340" selection-start-column="20" selection-end-line="340" selection-end-column="30" />
+          <folding>
+            <element signature="e#13527#13533#0" expanded="true" />
+            <marker date="1485330923685" expanded="true" signature="1470:1611" ph="..." />
+            <marker date="1485330923685" expanded="true" signature="1690:1831" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/imagen04.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/imagen05.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/imagen06.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/imagen07.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/imagen08.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/imagen09.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/imagen10.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/imagen11.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/imagen12.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/sliders/imagen01.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2522">
+          <caret line="228" column="53" lean-forward="false" selection-start-line="228" selection-start-column="53" selection-end-line="228" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>

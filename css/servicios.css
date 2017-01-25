@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:300');
+#submenu
+{
+    /* background-color: RGBA(0,0,0,0.5); */
+    color: white;
+    text-align: center;
+    /* position: absolute; */
+    margin-top: 55px;
+    width: 100%;
+    /* height: 30px; */
+    /* padding-top: 7px; */
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+#submenu a
+{
+    margin: 0px 20px;
+    transition:color 150ms ease;
+}
+
+#submenu a:hover
+{
+    color:#F5821F;
+}
+
+section
+{
+    text-align:left;
+}
+
+#banner_desarrollo
+{
+    width:100%;
+    height:450px;
+    background:url('../img/sliders/softwaredesarrollo.jpg') no-repeat center fixed;
+    /*background:url('/images/servicios/servicio1.jpg') no-repeat center fixed;*/
+    background-size:cover;
+    color:white;
+    margin-bottom:80px;
+}
+
+.banner_gradient
+{
+    background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+    width: 140%;
+    min-height: 100%;
+    height: 100%;
+    margin: 0px;
+    padding:0px 7%;
+    box-sizing:border-box;
+}
+
+#banner_desarrollo h1
+{
+    font-weight:100;
+    font-size:41px;
+    margin-top: 230px;
+    position:absolute;
+    line-height: 48px;
+    transition:all 250ms ease-out;
+    margin-left:0%;
+}
+
+#banner_desarrollo:hover h1
+{
+    margin-left:3%;
+}
+
+#banner_desarrollo h1 span
+{
+    font-weight:500;
+    font-size:60px;
+}
+
+h2
+{
+    color:#F5821F;
+    font-weight:400;
+    font-size:14px;
+}
+
+.panel_tecnico
+{
+    padding:0px 5%;
+    box-sizing:border-box;
+}
+
+.margin_bottom_40px
+{
+    margin-bottom:40px;
+}
+
+/*******************************Móviles******************************************/
+
+#banner_moviles
+{
+    width:100%;
+    height:450px;
+    background:url('../img/sliders/apimovil3.jpg') no-repeat center fixed;
+    /*background:url('/images/servicios/servicio2.jpg') no-repeat center fixed;*/
+    background-size:cover;
+    color:white;
+    margin-bottom:60px;
+}
+
+#banner_moviles h1
+{
+    line-height: 1em;
+    margin-top: 200px;
+    position: absolute;
+    text-align: right;
+    right: 7%;
+    font-size: 44px;
+    transition:all 250ms ease-out;
+    margin-right:0%;
+}
+
+#banner_moviles:hover h1
+{
+    margin-right:3%;
+}
+
+#moviles_title1
+{
+    font-size:47px;
+    font-weight: 500;
+}
+
+#moviles_title2
+{
+    font-size: 58px;
+    line-height: 1em;
+}
+
+/*******************************Nube******************************************/
+#banner_nube
+{
+    width:100%;
+    height:450px;
+    background:url('../img/sliders/disenoWeb.jpg') no-repeat center fixed;
+    /*background:url('/images/servicios/servicio3.jpg') no-repeat center fixed;*/
+    background-size:cover;
+    color:white;
+    margin-bottom:60px;
+    margin-top:90px;
+}
+
+#banner_nube h1
+{
+    line-height: 1em;
+    margin-top: 200px;
+    position: absolute;
+    font-size: 44px;
+    transition:all 250ms ease-out;
+    margin-left:0%;
+}
+
+#banner_nube:hover h1
+{
+    margin-left:3%;
+}
+
+#nube_title1
+{
+    font-size:47px;
+    font-weight: 500;
+}
+
+#nube_title2
+{
+    line-height: 1em;
+    font-weight: 600;
+}
+
+
+/*******************************Mesa de ayuda******************************************/
+#banner_mesa
+{
+    width:100%;
+    height:450px;
+    background:url('https://awstsmbucket01.s3.amazonaws.com/TSM/images/servicios/servicio4.jpg') no-repeat center fixed;
+    /*background:url('/images/servicios/servicio4.jpg') no-repeat center fixed;*/
+    background-size:cover;
+    color:white;
+    margin-bottom:60px;
+    margin-top:90px;
+}
+
+#banner_mesa h1
+{
+    line-height: 1em;
+    margin-top: 200px;
+    position: absolute;
+    font-size: 60px;
+    transition:all 250ms ease-out;
+    margin-left:0%;
+}
+
+#banner_mesa:hover h1
+{
+    margin-left:3%;
+}
+
+#banner_mesa span
+{
+    font-size:61px;
+    font-weight: 500;
+}
+
+
+/*******************************Fábrica de software******************************************/
+#banner_fabrica
+{
+    width:100%;
+    height:450px;
+    background:url('https://awstsmbucket01.s3.amazonaws.com/TSM/images/servicios/servicio5.jpg') no-repeat center fixed;
+    /*background:url('/images/servicios/servicio5.jpg') no-repeat center fixed;*/
+    background-size:cover;
+    color:white;
+    margin-bottom:60px;
+    margin-top:90px;
+}
+
+#banner_fabrica h1
+{
+    line-height: 1em;
+    margin-top: 200px;
+    position: absolute;
+    font-size: 60px;
+    text-align: right;
+    right: 7%;
+    transition:all 250ms ease-out;
+    margin-right:0%;
+}
+
+#banner_fabrica:hover h1
+{
+    margin-right:3%;
+}
+
+#banner_fabrica span
+{
+    font-size:61px;
+    font-weight: 500;
+}
+
+
+
+/*******************************Desarrollo de videojuegos******************************************/
+#banner_videojuegos
+{
+    width:100%;
+    height:450px;
+    background:url('https://awstsmbucket01.s3.amazonaws.com/TSM/images/servicios/servicio6.jpg') no-repeat center fixed;
+    /*background:url('/images/servicios/servicio6.jpg') no-repeat center fixed;*/
+    background-size:cover;
+    color:white;
+    margin-bottom:60px;
+    margin-top:90px;
+}
+
+#banner_videojuegos h1
+{
+    line-height: 1em;
+    margin-top: 200px;
+    position: absolute;
+    font-size: 45px;
+    text-align: right;
+    right: 7%;
+    transition:all 250ms ease-out;
+    margin-right:0%;
+}
+
+#banner_videojuegos:hover h1
+{
+    margin-right:3%;
+}
+
+#videojuegos h2
+{
+    color:#656362 !important;
+    margin-top:30px;
+}
+
+#banner_videojuegos span
+{
+    font-size:47px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:782px)
+{
+    #submenu
+    {
+        background-color:RGBA(0,0,0,0.8);
+        margin-top: 90px;
+        width: 100%;
+        height: 175px;
+    }
+
+    #submenu a
+    {
+        display: block;
+        padding: 5px 0px;
+    }
+
+    #banner_desarrollo
+    {
+        margin-top: 265px;
+    }
+}
+
+@media screen and (max-width:640px)
+{
+    #submenu
+    {
+        background-color:RGBA(0,0,0,0.8);
+        margin-top: 75px;
+        width: 100%;
+        height: 175px;
+    }
+
+    #submenu a
+    {
+        display: block;
+        padding: 5px 0px;
+    }
+
+    #banner_desarrollo
+    {
+        margin-top: 250px;
+    }
+
+    .panel_descripcion
+    {
+        width: 100%;
+        padding: 0% 20px;
+        box-sizing: border-box;
+    }
+
+    .field1
+    {
+        display:none;
+    }
+
+    .field4
+    {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
