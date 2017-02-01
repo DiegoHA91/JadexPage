@@ -139,6 +139,125 @@ h2
     line-height: 1em;
 }
 
+/*******************************e-commers******************************************/
+#banner_e-commers
+{
+    width:100%;
+    height:450px;
+    background:url('../img/sliders/e-commers/ecommerce-shopping-retail-ss-1920.jpg') no-repeat center fixed;
+    /*background:url('/images/servicios/servicio3.jpg') no-repeat center fixed;*/
+    background-size:cover;
+    color:white;
+    margin-bottom:60px;
+    margin-top:90px;
+}
+
+#banner_e-commers h1
+{
+    line-height: 1em;
+    margin-top: 200px;
+    position: absolute;
+    font-size: 44px;
+    transition:all 250ms ease-out;
+    margin-left:0%;
+}
+
+#banner_e-commers:hover h1
+{
+    margin-left:3%;
+}
+
+#banner_e-commers1
+{
+    font-size:47px;
+    font-weight: 500;
+}
+
+#banner_e-commers2
+{
+    line-height: 1em;
+    font-weight: 600;
+}
+
+/*******************************mrp******************************************/
+#banner_mrp
+{
+    width:100%;
+    height:450px;
+    background:url('../img/sliders/mrp/erp_con_MRP_Planificacion_de_materiales.jpg') no-repeat center fixed;
+    /*background:url('/images/servicios/servicio3.jpg') no-repeat center fixed;*/
+    background-size:cover;
+    color:white;
+    margin-bottom:60px;
+    margin-top:90px;
+}
+
+#banner_mrp h1
+{
+    line-height: 1em;
+    margin-top: 200px;
+    position: absolute;
+    font-size: 44px;
+    transition:all 250ms ease-out;
+    margin-left:0%;
+}
+
+#banner_mrp:hover h1
+{
+    margin-left:3%;
+}
+
+#banner_mrp1
+{
+    font-size:47px;
+    font-weight: 500;
+}
+
+#banner_mrp2
+{
+    line-height: 1em;
+    font-weight: 600;
+}
+/*******************************reportes******************************************/
+#banner_reportes
+{
+    width:100%;
+    height:450px;
+    background:url('../img/sliders/reportes/medir-y-analizar-los-resultados-de-tu-página-web.jpg') no-repeat center fixed;
+    /*background:url('/images/servicios/servicio3.jpg') no-repeat center fixed;*/
+    background-size:cover;
+    color:white;
+    margin-bottom:60px;
+    margin-top:90px;
+}
+
+#banner_reportes h1
+{
+    line-height: 1em;
+    margin-top: 200px;
+    position: absolute;
+    font-size: 44px;
+    transition:all 250ms ease-out;
+    margin-left:0%;
+}
+
+#banner_reportes:hover h1
+{
+    margin-left:3%;
+}
+
+#banner_reportes1
+{
+    font-size:47px;
+    font-weight: 500;
+}
+
+#banner_reportes2
+{
+    line-height: 1em;
+    font-weight: 600;
+}
+
 /*******************************Nube******************************************/
 #banner_nube
 {
