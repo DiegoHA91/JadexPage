@@ -157,14 +157,22 @@ h2
     line-height: 1em;
     margin-top: 200px;
     position: absolute;
+    text-align: right;
+    right: 7%;
     font-size: 44px;
     transition:all 250ms ease-out;
-    margin-left:0%;
+    margin-right:0%;
 }
 
 #banner_e-commers:hover h1
 {
     margin-left:3%;
+}
+
+#banner_e-commers h1 span
+{
+    font-weight:500;
+    font-size:60px;
 }
 
 #banner_e-commers1
@@ -206,7 +214,11 @@ h2
 {
     margin-left:3%;
 }
-
+#banner_mrp h1 span
+{
+    font-weight:500;
+    font-size:60px;
+}
 #banner_mrp1
 {
     font-size:47px;
@@ -214,6 +226,52 @@ h2
 }
 
 #banner_mrp2
+{
+    line-height: 1em;
+    font-weight: 600;
+}
+
+/*******************************crm******************************************/
+#banner_crm
+{
+    width:100%;
+    height:450px;
+    background:url('../img/sliders/crm/crm.jpg') no-repeat center fixed;
+    /*background:url('/images/servicios/servicio3.jpg') no-repeat center fixed;*/
+    background-size:cover;
+    color:white;
+    margin-bottom:60px;
+    margin-top:90px;
+}
+
+#banner_crm h1
+{
+    line-height: 1em;
+    margin-top: 200px;
+    position: absolute;
+    text-align: right;
+    right: 7%;
+    font-size: 44px;
+    transition:all 250ms ease-out;
+    margin-right:0%;
+}
+
+#banner_crm:hover h1
+{
+    margin-left:3%;
+}
+#banner_crm h1 span
+{
+    font-weight:500;
+    font-size:60px;
+}
+#banner_crm1
+{
+    font-size:47px;
+    font-weight: 500;
+}
+
+#banner_crm2
 {
     line-height: 1em;
     font-weight: 600;
@@ -285,7 +343,11 @@ h2
 {
     margin-left:3%;
 }
-
+#banner_nube h1 span
+{
+    font-weight:500;
+    font-size:60px;
+}
 #nube_title1
 {
     font-size:47px;
