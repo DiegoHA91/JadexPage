@@ -1,3 +1,5 @@
+//out: ../css/agency.css, sourcemap: true, compress: true
+
 @import "variables.less";
 @import "mixins.less";
 
@@ -70,12 +72,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-xl {
-    .button-variant(white; @theme-primary; @theme-primary);
+    //.button-variant(white; @theme-primary; @theme-primary);
+    .horizontal-gradient(@theme-primary,rgb(20, 129, 144));
     .heading-font;
+    color: white;
     font-weight: 700;
     border-radius: 3px;
     font-size: 18px;
     padding: 20px 40px;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(40, 10, 10, 0.75);
 }
 
 // Custom Navigation Bar
@@ -165,9 +171,18 @@ h1, h2, h3, h4, h5, h6 {
         }
     }
 }
+.name-nav-jadex{
+  .head-text;
+  font-size: 2em;
+  color: white;
+  padding: 10px;
+  padding-left: 5px;
+  margin-left: 5px;
 
+  border-left: 2px solid white;
+}
 header {
-    background-image: url('../img/header-bg.jpg');
+    background-image:  url('../img/sliders/imagen01.jpeg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -177,19 +192,41 @@ header {
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
+        text-shadow: 2px 2px 1px rgb(77, 31, 2);
+        .intro-logotipo{
+          margin-bottom: 20px;
+          img{
+            max-width: 100%;
+          }
+          .jadexName{
+            text-align: left;
+            span{
+              border-left: 3px solid white;
+              padding: 15px;
+              font-size: 9em;
+              text-transform: capitalize;
+              padding-left: 20px;
+              .head-text;
+            }
+          }
+        }
         .intro-lead-in {
-            .serif-font;
-            font-style: italic;
+            .body-text;
             font-size: 22px;
             line-height: 22px;
             margin-bottom: 25px;
+            letter-spacing: 2px;
+            word-spacing: 20px;
         }
         .intro-heading {
-            .heading-font;
+            text-transform: uppercase;
+            .another-text;
             font-weight: 700;
             font-size: 50px;
             line-height: 50px;
             margin-bottom: 25px;
+            letter-spacing: 5px;
+            word-spacing: 60px;
         }
     }
 }
@@ -197,17 +234,17 @@ header {
 @media(min-width:768px) {
     header {
         .intro-text {
-            padding-top: 300px;
+            padding-top: 150px;
             padding-bottom: 200px;
             .intro-lead-in {
-                .serif-font;
-                font-style: italic;
+
+
                 font-size: 40px;
                 line-height: 40px;
                 margin-bottom: 25px;
             }
             .intro-heading {
-                .heading-font;
+
                 font-weight: 700;
                 font-size: 75px;
                 line-height: 75px;
@@ -288,8 +325,8 @@ section {
                     h4 {
                         margin: 0;
                     }
-                }                
-            }            
+                }
+            }
         }
         .portfolio-caption {
             max-width: 400px;
@@ -574,7 +611,7 @@ section#contact {
        font-weight: 700;
        color: @gray-lighter;
     }
-    :-ms-input-placeholder {  
+    :-ms-input-placeholder {
        .heading-font;
        font-weight: 700;
        color: @gray-lighter;
@@ -704,8 +741,8 @@ ul.social-buttons {
                 -webkit-transform: rotate(90deg);
                 /* Safari and Chrome */
                 z-index:1052;
-            }            
-        }        
+            }
+        }
     }
     .modal-backdrop {
         opacity: 0;
@@ -735,4 +772,20 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @theme-primary;
+}
+
+#infografia_wrap {
+  /*padding: 90px 60px 0px 60px;*/
+  box-sizing: border-box;
+  /*margin: 60px 0px 120px 0px;*/
+}
+
+#infografia {
+  width: 100%;
+  padding-bottom: 67%;
+  background: url(../img/metodologia/infografia_scrum.png) no-repeat;
+  /* background: url(/images/agiles/infografia_wide.png) no-repeat; */
+  background-size: contain;
+  background-position: center;
+  position: relative;
 }
