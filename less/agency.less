@@ -181,7 +181,10 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 2px solid white;
 }
 header {
-    background-image:  url('../img/sliders/imagen01.jpeg');
+  background-blend-mode: multiply;
+  background-image: -webkit-linear-gradient(rgb(0, 27, 105) 30%, #ffffff 100%),url(../img/sliders/imagen01.jpeg);
+  background-image: -o-linear-gradient(rgb(0, 27, 105) 30%, #ffffff 100%),url(../img/sliders/imagen01.jpeg);
+  background-image: linear-gradient(rgb(0, 27, 105) 30%, #ffffff 100%),url(../img/sliders/imagen01.jpeg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
