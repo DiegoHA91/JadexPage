@@ -258,7 +258,7 @@ header {
 }
 
 // Global Section Styles
-
+//div.text-center+div.text-justify+div.text-right
 section {
     //padding: 100px 0;
     h2.section-heading {
@@ -266,6 +266,10 @@ section {
         margin-top: 0;
         margin-bottom: 15px;
         text-align: right;
+        @media(max-width: 768px){
+          text-align: left;
+          font-size: 3.6em;
+        }
     }
     h3.section-subheading {
         font-size: 16px;
@@ -802,6 +806,31 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
 
+  &.elementos{
+    .elemento{
+      box-shadow: none;
+      transition: box-shadow .5s,background-color .5s;
+      border-radius: 10px;
+      background-color: white;
+      &:hover{
+        box-shadow: 0 0 5px  rgba(0, 0, 0, 0.35);
+        background-color: rgb(211, 230, 226);
+      }
+    }
+    h4{
+
+      font-size: 2em;
+    }
+    p{
+      font-size: 1.2em;
+      padding: 10px;
+    }
+    div.text-right{
+      margin-bottom: 20px;
+    }
+
+  }
+
 }
 .descripcion-scrum{
   .img-descripcion{
@@ -825,7 +854,14 @@ body {
 }
 .titulo-seccion{
   padding: 50px;
+  @media(max-width: 768px){
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+  }
   h2{
+
 
   }
 
