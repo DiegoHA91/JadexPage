@@ -180,6 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 5px;
   border-left: 2px solid white;
 }
+
 header {
   background-blend-mode: multiply;
   background-image: -webkit-linear-gradient(rgb(0, 27, 105) 30%, #ffffff 100%),url(../img/sliders/imagen01.jpeg);
@@ -259,11 +260,12 @@ header {
 // Global Section Styles
 
 section {
-    padding: 100px 0;
+    //padding: 100px 0;
     h2.section-heading {
-        font-size: 40px;
+        font-size: 4em;
         margin-top: 0;
         margin-bottom: 15px;
+        text-align: right;
     }
     h3.section-subheading {
         font-size: 16px;
@@ -271,13 +273,13 @@ section {
         text-transform: none;
         font-style: italic;
         font-weight: 400;
-        margin-bottom: 75px;
+      //  margin-bottom: 75px;
     }
 }
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        //padding: 150px 0;
     }
 }
 
@@ -790,4 +792,39 @@ body {
   background-size: contain;
   background-position: center;
   position: relative;
+}
+.contenedor-titulo{
+  background: black;
+}
+.contenido{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.descripcion-scrum{
+  .img-descripcion{
+    padding-top: 30px;
+    font-size: 2.5em;
+
+  }
+  p{
+    font-size: 1.5em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    span{
+      color: @theme-primary;
+      font-weight: bold;
+      text-transform: uppercase;
+      .head-text;
+    }
+  }
+}
+.titulo-seccion{
+  padding: 50px;
+  h2{
+
+  }
+
 }
